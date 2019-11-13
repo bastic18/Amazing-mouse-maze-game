@@ -114,18 +114,7 @@ go();
 
 
 
-// function col(){
-// 	boundary.forEach(function(i,index){
-// 		boundary[i].addEventListener("mouseover",function(){
-// 	boundary.forEach(function (i,index)=>{
-// 		i.classList.add("youlose"); 
-// 		win=false 	} );
-// 	let s= document.getElementById("status");
-// 	s.innerHTML="you lose";
-// 	});
-// });
 
-// }
 
 function change(){
 
@@ -150,28 +139,5 @@ function unchange(){
 
 
 
-
-//   start.addEventListener("mouseover", function() {
-//     document.getElementById("status").innerHTML = "Move your mouse over the S to begin";
-//     for (var i = 0; i < boundaries.length; i++) {
-//       boundaries[i].addEventListener("mouseover", function() {
-//         win = false;
-//         this.style.background = "red";
-//         alert("YOU LOSE! START OVER!");
-//         this.style.background = "#eeeeee";
-//         document.getElementById("status").innerHTML = "YOU LOSE!"
-//         stopPropagation();
-//       });
-//     }
-    
-//   });
-
-// end.addEventListener("mouseover", function() {
-//   if (win == true) {
-//     document.getElementById("status").innerHTML = "YOU WIN!";
-//     alert("CONGRATULATIONS! YOU WIN!");
-//   }
-//   win = true;
-// });
 
 }
